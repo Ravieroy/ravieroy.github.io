@@ -85,12 +85,12 @@ In linux, provide authorisation
 
 ![etcher6](https://user-images.githubusercontent.com/81288438/112392400-5127d680-8d1f-11eb-82e6-c8e06d000cb1.png)
 
-And done.
+And done. This whole process can take upto 10 - 15 minutes depending on the write speed of the microSD card. Have patience.
 
 ![etcher7](https://user-images.githubusercontent.com/81288438/112392406-52f19a00-8d1f-11eb-91df-07c04330ca52.png)
 
 Once done flashing, eject your microSD card and insert it into the Raspberry Pi. Provide your Pi with power supply via the USB-C cable. Once it recieves the power, it should turn on
-(***you might get an inverted screen but don't worry the solution is simple and is given at the end of the post***)
+(***you might get an inverted screen but don't worry, the solution is simple and is given at the end of the post***)
 
 ![Pic2](https://user-images.githubusercontent.com/81288438/112384991-128d1e80-8d15-11eb-8603-4c43885efb67.jpg)
 
