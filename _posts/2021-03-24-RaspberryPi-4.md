@@ -1,7 +1,4 @@
----
-layout: post
-title: Raspberry Pi 4: Getting Started with Manjaro
----
+# Raspberry Pi 4: Getting Started with Manjaro
 
 ## What is Raspberry Pi??
 
