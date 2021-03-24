@@ -157,7 +157,7 @@ sudo pacman -Syu
 lcd_rotate=2 # for touch screen displays
 ```
 
-```
+```bash
 display_rotate=2 # for non touch displays
 ```
 
