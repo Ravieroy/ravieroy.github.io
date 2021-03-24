@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am Ravi Roy, research scholar at **Centre for Theoretical Studies, IIT Kharagpur"**. I research on Condensed matter physics with interests in Mathematical Modelling as well.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+### I am also interested in technological stuffs, coding etc. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ravieroy123@gmail.com](mailto:ravieroy123@gmail.com)
