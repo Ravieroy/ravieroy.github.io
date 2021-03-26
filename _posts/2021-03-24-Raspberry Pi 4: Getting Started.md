@@ -1,3 +1,9 @@
+---
+layout: post
+title: Raspberry Pi 4: Getting Started with Manjaro
+---
+
+
 ## What is Raspberry Pi??
 
 ![Pic1](https://user-images.githubusercontent.com/81288438/112384822-deb1f900-8d14-11eb-9436-565c94b5bf27.jpg)
@@ -169,6 +175,13 @@ display_rotate=2 # for non touch displays
 sudo nano /boot/config.txt
 ```
 3. Same as last. Add the line and restart your Pi. It should be done.
+
+This is how your config file should look.
+
+![config3](https://user-images.githubusercontent.com/81288438/112667512-556d0480-8e83-11eb-9ae9-488269054406.png)
+
+
+
 
 ## Enjoy your Raspberry Pi!!!
 
