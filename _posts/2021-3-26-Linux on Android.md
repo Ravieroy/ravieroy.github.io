@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Installing Manjaro in Android(OnePlus 7T)
 ---
 
-# Android
+## Why use Linux in Android OS?
