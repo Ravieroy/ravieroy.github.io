@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Raspberry Pi 4: Getting Started with Manjaro
+title: Raspberry Pi 4--Getting Started with Manjaro
 ---
 
 
