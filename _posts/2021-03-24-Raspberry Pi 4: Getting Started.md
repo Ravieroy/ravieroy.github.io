@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Raspberry Pi 4--Getting Started with Manjaro
+date: 2021-03-24
 ---
 
 
