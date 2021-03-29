@@ -16,7 +16,7 @@ date: 2021-03-27 15:50:00 -0800
 
 [Setting things up](#setting-things-up)
 
-[Post-installation](#post-installation)
+[Post installation](#post-installation)
 
 [VNC viewer setup](#vnc-viewer-setup)
 
@@ -83,7 +83,7 @@ Now you have to wait. Everything is automated from here and it can take upto 20 
 
 ---
 
-## Post-installation
+## Post installation
 
 Once the installation is finished, restart Termux. If you do an ```ls``` You should see an executable file named ***start-xxxx.sh***. In my case it is ***start-manjaro.sh***.
 
