@@ -16,7 +16,7 @@ date: 2021-03-27 15:50:00 -0800
 
 [Setting things up](#setting-things-up)
 
-[Post-installation]9(#post-installation)
+[Post-installation](#post-installation)
 
 [VNC viewer setup](#vnc-viewer-setup)
 
