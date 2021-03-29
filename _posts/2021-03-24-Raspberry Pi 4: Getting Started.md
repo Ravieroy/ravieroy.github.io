@@ -5,6 +5,16 @@ date: 2021-03-24 03:15:00 -0800
 
 ---
 
+## Table of contents
+
+[What is Raspberry Pi??](#what-is-raspberry-pi??)
+[Things you will need](#things-you-will-need)
+[Hardware Setup](#hardware-setup)
+[Software Setup](#software-setup)
+[Booting the Raspberry Pi](#booting-the-raspberry-pi)
+[Display orientation issue](#display-orientation-issue)
+
+
 
 ## What is Raspberry Pi??
 
