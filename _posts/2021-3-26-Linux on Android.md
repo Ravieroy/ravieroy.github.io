@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Android Tips
+title: Android Tips-Part 1
 date: 2021-03-26 20:15:00 -0800
 
 ---
 
-# 1. Installing Linux OS on Android platform
+# Installing Linux OS on Android platform
 ----
 
 ## Why use Linux in Android OS?
@@ -15,7 +15,7 @@ date: 2021-03-26 20:15:00 -0800
 * You want to remotely access your device
 * You might want to learn linux but don't have access to laptop or computer.
 
-For whatever reason you might want to do this, this guide will help you do that. This will let you use the full power of **Linux** on your Android device, and not just terminal(for which **Termux** is the best) . Needless to say that, the best experience of using this will be on Android Tablets due to their larg screen size.
+For whatever reason you might want to do this, this guide will help you do that. This will let you use the full power of **Linux** on your Android device, and not just terminal(for which **Termux** is the best) . Needless to say that, the best experience of using this will be on Android Tablets due to their large screen size.
 
 ----
 
@@ -23,10 +23,13 @@ For whatever reason you might want to do this, this guide will help you do that.
 
 1. [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_IN&gl=US)
 - It is an android terminal emulator app which works directly with no rooting or setup required. It is quite handy tool to have in android smartphones. 
-3. [Andronix](https://play.google.com/store/apps/details?id=studio.com.techriz.andronix&hl=en_IN&gl=US)
+
+2. [Andronix](https://play.google.com/store/apps/details?id=studio.com.techriz.andronix&hl=en_IN&gl=US)
 - This app lets you install Linux system on your android device without root. There are several distros you can install easily and for free, although there are modded paid versions of distros as well. You can install Ubuntu, Kali, Debian, Arch, Manjaro, Fedora, Void and Alpine. 
-5. [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en_IN&gl=US)
+
+3. [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en_IN&gl=US)
 - This turns your phone into a remote desktop, giving instant access to your system.
+
 ----
 
 ## Setting things up
@@ -59,7 +62,8 @@ Open Termux and paste it there and press ENTER.
 
 Now you have to wait. Everything is automated from here and it can take upto 20 - 25 minutes to complete the setup. You should be connected to internet and this whole process will take around 500MB of your internet data.
 
-***Important: You might have to allow Termux for access to storage while the setup. If it asks for it, just press allow. ***
+***Important: You might have to allow Termux for access to storage while the setup. If it asks for it, just press allow.***
+
 ---
 
 ## Post-installation
