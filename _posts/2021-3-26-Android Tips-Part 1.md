@@ -1,20 +1,23 @@
 ---
 layout: post
 title: Android Tips-Part 1
-date: 2021-03-26 20:15:00 -0800
+date: 2021-03-27 15:50:00 -0800
 
 ---
 
 # Installing Linux OS on Android platform
 ----
 
-## Table for contents
+## Table of contents
 
 [Why use Linux in Android OS?](#Why-use-linux-in-android-os?)
-
 [Requirements](#requirements)
-
 [Setting things up](#setting-things-up)
+[Post-installation]9(#post-installation)
+[VNC viewer setup](#vnc-viewer-setup)
+[Final Words](#final-words)
+
+----
 
 
 ## Why use Linux in Android OS?
