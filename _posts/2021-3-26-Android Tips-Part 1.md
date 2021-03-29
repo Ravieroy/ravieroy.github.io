@@ -8,6 +8,10 @@ date: 2021-03-26 20:15:00 -0800
 # Installing Linux OS on Android platform
 ----
 
+## Table for contents
+
+[Why use Linux in Android OS?](#Why-use-Linux-in-Android-OS?)
+
 ## Why use Linux in Android OS?
 
 * Well, you could be just tinkering around and learning stuffs.
