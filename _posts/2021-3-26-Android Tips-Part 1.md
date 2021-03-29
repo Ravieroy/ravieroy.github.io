@@ -11,6 +11,9 @@ date: 2021-03-26 20:15:00 -0800
 ## Table for contents
 
 [Why use Linux in Android OS?](#Why-use-Linux-in-Android-OS?)
+[Requirements](#Requirements)
+[Setting things up](#Setting-things-up)
+
 
 ## Why use Linux in Android OS?
 
