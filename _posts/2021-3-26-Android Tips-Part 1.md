@@ -8,7 +8,7 @@ date: 2021-03-27 15:50:00 -0800
 # Installing Linux OS on Android platform
 ----
 
-## Table of contents
+## Table of Contents
 
 [Why use Linux in Android OS?](#Why-use-linux-in-android-os?)
 
@@ -19,6 +19,8 @@ date: 2021-03-27 15:50:00 -0800
 [Post installation](#post-installation)
 
 [VNC viewer setup](#vnc-viewer-setup)
+
+[Important Links](#important-links)
 
 [Final Words](#final-words)
 
@@ -98,7 +100,9 @@ Run the following command
 ![Installation-3](https://user-images.githubusercontent.com/81288438/112817021-9e99a000-909f-11eb-9292-d6724f6bc90a.jpg)
 
 Now you should be running as root in the localhost. Now we start the vnc server by ```vnc-server start```. 
-***Important: At this point you might get a pop up for choosing the screen resolution. Just keep them default and you are okay***
+***Important: At this point you might get a pop up like shown below for choosing the screen resolution. Just keep them at autodetct/dynamic and you are okay.***
+
+![vnc-5](https://user-images.githubusercontent.com/81288438/112933667-ebcc4f00-913d-11eb-8083-e79a16455a42.png)
 
 ![Installation-4](https://user-images.githubusercontent.com/81288438/112817419-09e37200-90a0-11eb-8f38-5d52b612e499.jpg)
 
@@ -146,6 +150,15 @@ Here are few screenshots of the Manjaro XFCE edition.
 ![manjaro-3](https://user-images.githubusercontent.com/81288438/112819161-e7eaef00-90a1-11eb-9ff9-89d01c916fab.jpg)
 
 ----
+
+## Important Links
+
+1. [Youtube Tutorial](https://www.youtube.com/watch?v=jvuufPWKF3k&t=496s)
+- This is a nice video tutorial on installing Linux on android. Since the video is bit old, the process has changed slightly but you will get the idea if you pair the steps in the video with the above guide.
+
+2. [FAQ on Andronix](https://andronix.app/faq-frequently-asked-questions/)
+- This is a handy link to keep as it contains all the necessary commands required to run Linux. 
+
 
 ## Final Words
 
