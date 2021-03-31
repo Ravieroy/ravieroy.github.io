@@ -77,7 +77,7 @@ Now you can do all sorts of things like making a directory, editing files etc. F
 
 ***Important: If you will do a ``pwd`` you will see your path to the SDCard : ***
 
-```/data/data/com.arachnoid.sshelper/files/home/SDCard```
+***/data/data/com.arachnoid.sshelper/files/home/SDCard***
 
 ![pc-3](https://user-images.githubusercontent.com/81288438/113175918-955c2f00-9269-11eb-950f-d626290eb193.png)
 
