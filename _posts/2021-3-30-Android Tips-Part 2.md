@@ -75,7 +75,9 @@ Enter the password you set up.
 
 Now you can do all sorts of things like making a directory, editing files etc. For this case I will be making a folder **test_blog** with a file **blog.txt** which we will later copy into our system. This will work with all kinds of files.
 
-**Important: If you will do a ``pwd`` you will see something like this : ```/data/data/com.arachnoid.sshelper/files/home/SDCard```. Remember this is your path to the SDCard***
+***Important: If you will do a ``pwd`` you will see your path to the SDCard : ***
+
+```/data/data/com.arachnoid.sshelper/files/home/SDCard```
 
 ![pc-3](https://user-images.githubusercontent.com/81288438/113175918-955c2f00-9269-11eb-950f-d626290eb193.png)
 
@@ -104,12 +106,16 @@ You should see the progress bar and the file will be copied
 ![scp-2](https://user-images.githubusercontent.com/81288438/113181561-91cba680-926f-11eb-9315-fcb8d04548dc.png)
 
 ***Important: Remember, you should have correct permissions if you want to edit the file in your system***
+---
 
 ## Mount the folder in system directly
+----
 
 This is a much easier way to copy files from your android. In this we actually mount the folder directly into our system which then allows us to treat the folder like local. We can simply drag or ctrl+c to copy the files we want.
 
 For this we will need SSHFS (SSH Filesystem) command. It is a filesystem client based on FUSE for mounting remote directories over an SSH connection. SSHFS is using the SFTP protocol, which is a subsystem of SSH and it is enabled by default on most SSH servers. 
+
+---
 
 ### Installing SSHFS on Ubuntu and Debian
 
@@ -117,12 +123,14 @@ For this we will need SSHFS (SSH Filesystem) command. It is a filesystem client 
 sudo apt update
 sudo apt install sshfs
 ```
+----
 
 ### Installing SSHFS on CentOS
 
 ```bash
 sudo yum install sshfs
 ```
+----
 
 ### Installing SSHFS on MacOS
 
@@ -130,6 +138,8 @@ sudo yum install sshfs
 brew cask install osxfuse
 brew install sshfs
 ```
+---
+
 ### Installing SSHFS on Windows
 
 Windows users need to install two packages, WinFsp and SSHFS-Win.
@@ -137,6 +147,8 @@ Windows users need to install two packages, WinFsp and SSHFS-Win.
 [WinFsp](https://github.com/billziss-gh/winfsp/releases/tag/v1.4.19049)
 
 [SSHFS-Win ](https://github.com/billziss-gh/sshfs-win/releases)
+
+---
 
 Once the installation is done, we make a mount directory in our system.
 
@@ -178,13 +190,17 @@ If you get an error ```fusermount: failed to unmount /home/raviroy/TestDir: Devi
 ```bash
 sudo fusermount -u /home/raviroy/TestDir
 ```
+---
 
 ## Final Thought
+
+---
 
 You can obviously use you data cable to copy your files, but if you are under situation where you do not have access to them, this method can be useful. It is fast and secure. The remote mount behaves similarly to locally mounted storage: you are able to create, copy, move, edit, compress or perform any file system operations you would be able to do on the droplet, but you are not able to launch programs or scripts on the remote server.
 
 Hope this helps. 
 
+----
 
 
 
