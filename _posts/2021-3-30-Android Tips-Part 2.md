@@ -104,6 +104,7 @@ You should see the progress bar and the file will be copied
 ![scp-2](https://user-images.githubusercontent.com/81288438/113181561-91cba680-926f-11eb-9315-fcb8d04548dc.png)
 
 ***Important: Remember, you should have correct permissions if you want to edit the file in your system***
+
 ---
 
 ## Mount the folder in system directly
