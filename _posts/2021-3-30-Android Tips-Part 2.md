@@ -17,6 +17,7 @@ date: 2021-03-30 09:50:00 -0800
 4. [SCP to securely copy](#scp-to-securely-copy)
 5. [Mount the folder in system directly](#mount-the-folder-in-system-directly)
 6. [Final Thought](#final-thought)
+
 ----
 
 ## Requirements
@@ -74,7 +75,9 @@ Enter the password you set up.
 
 Now you can do all sorts of things like making a directory, editing files etc. For this case I will be making a folder **test_blog** with a file **blog.txt** which we will later copy into our system. This will work with all kinds of files.
 
-**Important: If you will do a ``pwd`` you will see something like this ```/data/data/com.arachnoid.sshelper/files/home/SDCard```. Remember this is your path to the SDCard***
+**Important: If you will do a ``pwd`` you will see something like this. 
+```/data/data/com.arachnoid.sshelper/files/home/SDCard```
+Remember this is your path to the SDCard***
 
 ![pc-3](https://user-images.githubusercontent.com/81288438/113175918-955c2f00-9269-11eb-950f-d626290eb193.png)
 
@@ -132,7 +135,9 @@ brew install sshfs
 ### Installing SSHFS on Windows
 
 Windows users need to install two packages, WinFsp and SSHFS-Win.
+
 [WinFsp](https://github.com/billziss-gh/winfsp/releases/tag/v1.4.19049)
+
 [SSHFS-Win ](https://github.com/billziss-gh/sshfs-win/releases)
 
 Once the installation is done, we make a mount directory in our system.
