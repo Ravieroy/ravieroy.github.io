@@ -183,7 +183,9 @@ sudo fusermount -u /home/raviroy/TestDir
 
 ## Final Thought
 
-You can obviously use you data cable to copy your files, but if you are under situation where you do not have access to them, this method can be useful. It is fast and secure. Hope this helps. 
+You can obviously use you data cable to copy your files, but if you are under situation where you do not have access to them, this method can be useful. It is fast and secure. The remote mount behaves similarly to locally mounted storage: you are able to create, copy, move, edit, compress or perform any file system operations you would be able to do on the droplet, but you are not able to launch programs or scripts on the remote server.
+
+Hope this helps. 
 
 
 
