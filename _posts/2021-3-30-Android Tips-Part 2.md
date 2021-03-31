@@ -42,6 +42,52 @@ Once done, it will start the server. Head over to the **configuration** which ha
 
 ----
 
+## PC setup
+
+----
+Now head over to your PC and open command terminal. Now we will ssh into our Android to browse our files like we do in our system. In later section I will show how to securely copy our files from android to our system. Even better, we can directly mount the folder we want from android into our system. This way we can simply copy and paste files like that folder is in our system itself.
+
+Since we are not using default port 22, we need to specify the port we are using(here 2222). The format is 
+
+```bash
+ssh user@192.168.xx.xxx -p yyyy
+```
+For SSHelper, the default user is admin and port is 2222. So for my case it is
+
+```bash
+ssh admin@192.168.43.174 -p 2222
+```
+
+You can copy the above code and replace with your server address.
+
+***Keep in mind, the server address keeps changing after sometime. Hence you need to edit the code accordingly***
+
+You will be asked to confirm the authenticity of the host by typing **yes**. This will be asked only once, for the first login.
+
+![pc-1](https://user-images.githubusercontent.com/81288438/113175599-3991a600-9269-11eb-888d-0ec186914697.png)
+
+Enter the password you set up.
+
+![pc-2](https://user-images.githubusercontent.com/81288438/113175659-47472b80-9269-11eb-8925-d0eff1959975.png)
+
+Now you can do all sorts of things like making a directory, editing files etc. For this case I will be making a folder **test_blog** with a file **blog.txt** which we will later copy into our system. This will work will any kind of files.
+
+![pc-3](https://user-images.githubusercontent.com/81288438/113175918-955c2f00-9269-11eb-950f-d626290eb193.png)
+
+---
+
+## SCP to securely copy
+----
+
+
+
+
+
+
+
+
+
+
 
 
 
