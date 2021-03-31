@@ -8,4 +8,4 @@
 
 3. [Raspberry Pi 4-Getting Started with Manjaro](https://ravieroy.github.io/Raspberry-Pi-4-Getting-Started/)
 
-### I am Ravi Kiran, Research scholar at Centre for Theoretical Studies, IIT Kharagpur. This blog is documentation of somethings I do to make my life easier, my views about something and otherthing. Hope this helps someone out there.
+### I am Ravi Kiran, Research scholar at Centre for Theoretical Studies, IIT Kharagpur. This blog is documentation of things I do to make my life easier, my views about something and otherthing. Hope this helps someone out there.
