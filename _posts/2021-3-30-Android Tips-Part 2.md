@@ -14,7 +14,9 @@ date: 2021-03-30 09:50:00 -0800
 1. [Requirements](#requirements)
 2. [Android Setup](#android-setup)
 3. [PC setup](#pc-setup)
-
+4. [SCP to securely copy](#scp-to-securely-copy)
+5. [Mount the folder in system directly](#mount-the-folder-in-system-directly)
+6. [Final Thought](#final-thought)
 ----
 
 ## Requirements
@@ -45,7 +47,7 @@ Once done, it will start the server. Head over to the **configuration** which ha
 ## PC setup
 
 ----
-Now head over to your PC and open command terminal. Now we will ssh into our Android to browse our files like we do in our system. In later section I will show how to securely copy our files from android to our system. Even better, we can directly mount the folder we want from android into our system. This way we can simply copy and paste files like that folder is in our system itself.
+Now head over to your PC and open command terminal. We will ssh into our Android to browse our files like we do in our system. In later section I will show how to securely copy our files from android to our system. Even better, we can directly mount the folder we want from android into our system. This way we can simply copy and paste files like that folder is in our system itself.
 
 Since we are not using default port 22, we need to specify the port we are using(here 2222). The format is 
 
@@ -60,7 +62,7 @@ ssh admin@192.168.43.174 -p 2222
 
 You can copy the above code and replace with your server address.
 
-***Keep in mind, the server address keeps changing after sometime. Hence you need to edit the code accordingly***
+***Keep in mind, the server address keeps changing after sometime. Hence you will need to edit the code accordingly***
 
 You will be asked to confirm the authenticity of the host by typing **yes**. This will be asked only once, for the first login.
 
@@ -70,7 +72,9 @@ Enter the password you set up.
 
 ![pc-2](https://user-images.githubusercontent.com/81288438/113175659-47472b80-9269-11eb-8925-d0eff1959975.png)
 
-Now you can do all sorts of things like making a directory, editing files etc. For this case I will be making a folder **test_blog** with a file **blog.txt** which we will later copy into our system. This will work will any kind of files.
+Now you can do all sorts of things like making a directory, editing files etc. For this case I will be making a folder **test_blog** with a file **blog.txt** which we will later copy into our system. This will work with all kinds of files.
+
+**Important: If you will do a ``pwd`` you will see something like this ```/data/data/com.arachnoid.sshelper/files/home/SDCard```. Remember this is your path to the SDCard***
 
 ![pc-3](https://user-images.githubusercontent.com/81288438/113175918-955c2f00-9269-11eb-950f-d626290eb193.png)
 
@@ -78,6 +82,112 @@ Now you can do all sorts of things like making a directory, editing files etc. F
 
 ## SCP to securely copy
 ----
+
+SCP stands for secure file copy. The syntax to copy from remote system (android) to our local system(Windows/Linux) is 
+
+```
+scp -P yyyy user@server:path_to_file /path_to_destination
+```
+
+Now I will show you a working example to execute the above command. In the last step we created a file **blog.txt** in our SDCard, which we will copy now into our system.
+
+```bash
+scp -P 2222 admin@192.168.43.66:/data/data/com.arachnoid.sshelper/files/home/SDCard/test_blog/blog.txt  /home/raviroy
+```
+You will be asked for your password(remember the one you set earlier).
+
+![scp-1](https://user-images.githubusercontent.com/81288438/113181477-7496d800-926f-11eb-916e-cbf958499c3d.png)
+
+You should see the progress bar and the file will be copied
+
+![scp-2](https://user-images.githubusercontent.com/81288438/113181561-91cba680-926f-11eb-9315-fcb8d04548dc.png)
+
+***Important: Remember, you should have correct permissions if you want to edit the file in your system***
+
+## Mount the folder in system directly
+
+This is a much easier way to copy files from your android. In this we actually mount the folder directly into our system which then allows us to treat the folder like local. We can simply drag or ctrl+c to copy the files we want.
+
+For this we will need SSHFS (SSH Filesystem) command. It is a filesystem client based on FUSE for mounting remote directories over an SSH connection. SSHFS is using the SFTP protocol, which is a subsystem of SSH and it is enabled by default on most SSH servers. 
+
+### Installing SSHFS on Ubuntu and Debian
+
+```bash
+sudo apt update
+sudo apt install sshfs
+```
+
+### Installing SSHFS on CentOS
+
+```bash
+sudo yum install sshfs
+```
+
+### Installing SSHFS on MacOS
+
+```bash
+brew cask install osxfuse
+brew install sshfs
+```
+### Installing SSHFS on Windows
+
+Windows users need to install two packages, WinFsp and SSHFS-Win.
+[WinFsp](https://github.com/billziss-gh/winfsp/releases/tag/v1.4.19049)
+[SSHFS-Win ](https://github.com/billziss-gh/sshfs-win/releases)
+
+Once the installation is done, we make a mount directory in our system.
+
+```bash
+mkdir TestDir
+```
+This will be the folder where all the contents of our chosen folder from the Android will be mounted, which for our case is **test_blog**.
+
+The syntax is 
+
+```
+sshfs -p yyyy user@server:path_to_directory  path_to_mount-directory
+```
+A working example
+
+```bash
+sshfs -p 2222 admin@192.168.43.74:/data/data/com.arachnoid.sshelper/files/home/SDCard/test_blog  /home/raviroy/TestDir
+```
+![sshfs-1](https://user-images.githubusercontent.com/81288438/113184544-eb81a000-9272-11eb-8d3b-83fa1c7bd135.png)
+
+You will be prompted for your password. Once you do that, you can see that the folder **test_blog** is now mounted on your system. You can also check directly from GUI.
+
+![sshfs-2](https://user-images.githubusercontent.com/81288438/113184937-6e0a5f80-9273-11eb-85be-4ef59e76ce55.png)
+
+Once you are done copying files, simply run the following command 
+
+```
+fusermount -u path-to_mount-directory
+```
+
+Which for this case is
+
+```bash
+fusermount -u /home/raviroy/TestDir
+```
+
+If you get an error ```fusermount: failed to unmount /home/raviroy/TestDir: Device or resource busy``` simply run the command as sudo
+
+```bash
+sudo fusermount -u /home/raviroy/TestDir
+```
+
+## Final Thought
+
+You can obviously use you data cable to copy your files, but if you are under situation where you do not have access to them, this method can be useful. It is fast and secure. Hope this helps. 
+
+
+
+
+
+
+
+
+
 
 
 
