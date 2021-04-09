@@ -22,6 +22,8 @@ date: 2021-03-27 15:50:00 -0800
 
 [Important Links](#important-links)
 
+[Common errors](#common-errors)
+
 [Final Words](#final-words)
 
 ----
@@ -158,6 +160,29 @@ Here are few screenshots of the Manjaro XFCE edition.
 
 2. [FAQ on Andronix](https://andronix.app/faq-frequently-asked-questions/)
 - This is a handy link to keep as it contains all the necessary commands required to run Linux. 
+
+
+## Common errors
+
+While starting the vnc server by `vncserver-start` you can get some errors like shown below.
+
+1. ***Warning: localhost:1 is taken because of /tmp/.X1-lock*** and/or ***Warning: localhost:1 is taken because of /tmp/.X11-unix/X1***
+
+![error1a](https://user-images.githubusercontent.com/81288438/114139461-b76e4500-992c-11eb-8a87-9d1965a02a3c.jpg)
+
+![error1b](https://user-images.githubusercontent.com/81288438/114139468-b9d09f00-992c-11eb-90cf-bae8a24cc9c7.jpg)
+
+To correct this simply delete the file and restart the server. To go into the folder type `cd /tmp ` and to list the files `ls -al`. To delete use `rm file_name`
+
+Onced one simply restart vnc server by `vncserver -start`
+
+2. **You forgot your vnc password or were not asked to set up one**
+
+Simply set up new password by `vncpasswd` and use this for the set up.
+
+![error_pass](https://user-images.githubusercontent.com/81288438/114140565-0ff21200-992e-11eb-9d31-e417bd9df460.jpg)
+
+![done](https://user-images.githubusercontent.com/81288438/114140585-18e2e380-992e-11eb-8f8b-338d351e1c27.jpg)
 
 
 ## Final Words
