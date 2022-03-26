@@ -14,9 +14,8 @@ header:
 
 
 
-## Wordle solver: Wordle
+## Wordle solver: Wordle ([Repository](https://github.com/Ravieroy/Wordle))
 This is the Python implementation of the Wordle game created by Josh Wardle. 
-### [Repository](https://github.com/Ravieroy/Wordle)
 
 ## Unlock Western Digital Hard Disk: WD-Decrypte-Script
 There are several ways to mount an encrypted Western Digital Hard Disk(WD-HDD). This repository is just a simple bash script to make the process seamless.
