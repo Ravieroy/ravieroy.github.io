@@ -17,6 +17,9 @@ header:
 ## Wordle solver: ([Wordle](https://github.com/Ravieroy/Wordle))
 This is the Python implementation of the Wordle game created by Josh Wardle. 
 
+## Computational Physics (MATLAB, Python): ([Codes](https://github.com/Ravieroy/Computational-Physics))
+Collection of computational physics codes written in MATLAB and Python
+
 ## Unlock Western Digital Hard Disk: ([WD-Decrypte-Script](https://github.com/Ravieroy/WD-Decrypte-Script))
 There are several ways to mount an encrypted Western Digital Hard Disk(WD-HDD). This repository is just a simple bash script to make the process seamless.
 This also install required dependencies in Ubuntu and Arch based distros.
