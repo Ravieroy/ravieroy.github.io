@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 header:
-  overlay_image: ../images/image_space-bubble-nebula-constellation.jpg
+  overlay_image: ../images/cv_page.jpg
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 ---
 

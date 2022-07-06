@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 header:
-  overlay_image: ../images/image_system-network-connection-connected.jpg
+  overlay_image: ../images/Publications_page.jpg
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 ---
 

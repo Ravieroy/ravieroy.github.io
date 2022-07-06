@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 header:
-  overlay_image: ../images/image_nature-night-sky-star.jpg
+  overlay_image: ../images/research_page
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 ---
 
