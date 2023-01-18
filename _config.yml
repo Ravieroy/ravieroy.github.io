@@ -47,8 +47,8 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+          #atom_feed:
+          #path                   : # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification :
@@ -87,7 +87,7 @@ author:
   location         : "West Bengal, India"
   employer         :
   pubmed           : 
-  arxiv            : 
+  arxiv            : "http://arxiv.org/a/kiran_r_1" 
   googlescholar    :
   email            : "ravieroy123@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Ravi-Kiran-43"

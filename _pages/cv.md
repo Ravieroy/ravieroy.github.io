@@ -34,7 +34,7 @@ header:
 
 ### Computing skills
 
-- Scientific computing: Python, MATLAB, Mathematica
+- Scientific computing: Python, MATLAB, Mathematica, Fortran
 - LaTeX, Tikz
 - BASH Scripting, Linux SysAdmin, Python Scripting and GUI
 - Basic Ethical hacking and Network Security
