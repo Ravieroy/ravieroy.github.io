@@ -56,7 +56,8 @@ over a period.
 
 ### Possible realization of hyperbolic plasmons in a few-layered rhenium disulfide
 <img style="float: right;margin-left: 10px" src="../images/fig_res2.png" width="500">
- _Possible realization of hyperbolic plasmons in a few-layered rhenium disulfide_
+**R. Kiran**,Dimitar Pashov, Mark van Schilfgaarde, Mikhail I. Katsnelson, A. Taraphder, Swagata Acharya
+_Possible realization of hyperbolic plasmons in a few-layered rhenium disulfide_
  [[arxiv]](https://arxiv.org/abs/2301.06521)  
 
  The in-plane structural anisotropy in low-symmetric layered compound rhenium disulfide 
