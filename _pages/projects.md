@@ -14,6 +14,7 @@ header:
 
 
 ## Bogoliubov de Gennes implementation in Julia: ([BdG-Julia](https://github.com/Ravieroy/BdG-Julia))
+This is the BdG implementation in Julia developed for the paper [Effect of correlated disorder on superconductivity in a kagome lattice: A Bogoliubov–de Gennes analysis(PhysRevB.110.184506)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.184506)
 
 ## Wordle solver: ([Wordle](https://github.com/Ravieroy/Wordle))
 This is the Python implementation of the Wordle game created by Josh Wardle. 

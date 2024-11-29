@@ -15,11 +15,11 @@ header:
 
 ## Professional background
 
-- 2019 - Present Ph.D, Department of Physics, Indian Institute of Technology Kharagpur, West Bengal
-- 2017 - 2019 M.Sc., Indian Institute of Technology Kharagpur, West Bengal
-- 2012 - 2015 B.Sc., T.N.B College, Bhagalpur, Tilkamanjhi Bhagalpur University(TMBU), Bihar
-- 2010 - 2012 Higher Secondary, T.N.B College, Bhagalpur, Tilkamanjhi Bhagalpur University(TMBU), Bihar
-- 2009 - 2010 Secondary, St’Teresa’s School, Bhagalpur, ICSE Board, Bhagalpur, Bihar
+- 2019- Present Ph.D, Department of Physics, Indian Institute of Technology Kharagpur, West Bengal
+- 2017- 2019 M.Sc., Indian Institute of Technology Kharagpur, West Bengal
+- 2012- 2015 B.Sc., T.N.B College, Bhagalpur, Tilkamanjhi Bhagalpur University(TMBU), Bihar
+- 2010- 2012 Higher Secondary, T.N.B College, Bhagalpur, Tilkamanjhi Bhagalpur University(TMBU), Bihar
+- 2009- 2010 Secondary, St’Teresa’s School, Bhagalpur, ICSE Board, Bhagalpur, Bihar
 
 
 ## Research interests
