@@ -15,6 +15,27 @@ header:
 
 ## Selected works
 
+### Effect of correlated disorder on superconductivity in a kagome lattice: A Bogoliubov–de Gennes analysis
+<img style="float: right;margin-bottom: 20px;margin-left: 10px" src="../images/LDOS.png" width="480">
+**R. Kiran**, Sudipta Biswas and Monodeep Chakraborty
+  _Effect of correlated disorder on superconductivity in a kagome lattice: A Bogoliubov–de Gennes analysis_
+  PhysRevB.110.184506 [[article]](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.184506)
+  [[researchgate]](https://www.researchgate.net/publication/385637326_Effect_of_correlated_disorder_on_superconductivity_in_a_kagome_lattice_A_Bogoliubov-de_Gennes_analysis)
+
+This paper investigates the superconducting properties of a two-dimensional s-wave
+superconductor on a kagome lattice subjected to correlated disorder. Using the
+Bogoliubov–de Gennes theory, we analyze the impact of disorder correlations on
+superconducting behavior. Additionally, we derive the stiffness formula for the
+kagome lattice and calculate its superfluid stiffness. An intriguing finding of
+our paper is the bimodal characteristic in the probability distribution of the
+superconducting pairing amplitude at higher disorder correlation strengths for
+intermediate values of the disordered potential. Our results provide valuable
+insights into how disorder correlations influence superconductivity and underscore
+the role of lattice geometry in shaping superconducting properties.
+
+<hr style="width:100%;margin:10px">
+
+
 ### Immunomodulatory role of black tea in the mitigation of cancer induced by inorganic arsenic
 <img style="float: right;margin-bottom: 20px;margin-left: 10px" src="../images/fig_cancer.png" width="480">
 **R. Kiran**, Swati Tyagi, Syed Abbas, Madhumita Roy and A. Taraphder 

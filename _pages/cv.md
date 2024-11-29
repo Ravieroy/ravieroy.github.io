@@ -15,11 +15,11 @@ header:
 
 ## Professional background
 
-- 2019- Ph.D, Department of Physics, Indian Institute of Technology Kharagpur, West Bengal
-- 2017-19 M.Sc., Indian Institute of Technology Kharagpur, West Bengal
-- 2012-15 B.Sc., T.N.B College, Bhagalpur, Tilkamanjhi Bhagalpur University(TMBU), Bihar
-- 2010-12 Higher Secondary, T.N.B College, Bhagalpur, Tilkamanjhi Bhagalpur University(TMBU), Bihar
-- 2009-10 Secondary, St’Teresa’s School, Bhagalpur, ICSE Board, Bhagalpur, Bihar
+- 2019 - Present Ph.D, Department of Physics, Indian Institute of Technology Kharagpur, West Bengal
+- 2017 - 2019 M.Sc., Indian Institute of Technology Kharagpur, West Bengal
+- 2012 - 2015 B.Sc., T.N.B College, Bhagalpur, Tilkamanjhi Bhagalpur University(TMBU), Bihar
+- 2010 - 2012 Higher Secondary, T.N.B College, Bhagalpur, Tilkamanjhi Bhagalpur University(TMBU), Bihar
+- 2009 - 2010 Secondary, St’Teresa’s School, Bhagalpur, ICSE Board, Bhagalpur, Bihar
 
 
 ## Research interests
@@ -28,14 +28,15 @@ header:
 
 - Computational: DFT, QSGW
 - Theoretical: Topological Systems
+- Bogoliubov de Gennes(BdG), Superconductivity, YSR states
 
 ### Mathematical Modelling
 - Biological Models, COVID Modelling
 
 ### Computing skills
 
-- Scientific computing: Python, MATLAB, Mathematica, Fortran
+- Scientific computing: Julia, Python, MATLAB, Mathematica, Fortran
 - LaTeX, Tikz
 - BASH Scripting, Linux SysAdmin, Python Scripting and GUI
 - Basic Ethical hacking and Network Security
-- Basic Arduino Programming 
+- Basic Arduino Programming

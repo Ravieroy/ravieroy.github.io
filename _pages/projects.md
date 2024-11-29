@@ -13,6 +13,7 @@ header:
 {% include base_path %}
 
 
+## Bogoliubov de Gennes implementation in Julia: ([BdG-Julia](https://github.com/Ravieroy/BdG-Julia))
 
 ## Wordle solver: ([Wordle](https://github.com/Ravieroy/Wordle))
 This is the Python implementation of the Wordle game created by Josh Wardle. 
