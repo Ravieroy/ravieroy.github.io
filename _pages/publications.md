@@ -30,7 +30,7 @@ header:
 
 3. **R. Kiran**, Dimitar Pashov, Mark van Schilfgaarde, Mikhail I. Katsnelson, A. Taraphder, and Swagata Acharya  
    _Possible realization of hyperbolic plasmons in a few-layered rhenium disulfide_  
-   **Photonics**, **10**(3), 40 (2023)  
+   **Condens. Matter** **2025**, _10(3)_, _40_
    [[📄 Article]](https://www.mdpi.com/2410-3896/10/3/40) · [[🧠 arXiv]](https://arxiv.org/abs/2301.06521)
 
 4. **R. Kiran**, Sudipta Biswas, and Monodeep Chakraborty  
