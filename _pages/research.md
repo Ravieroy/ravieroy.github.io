@@ -79,7 +79,7 @@ over a period.
 <img style="float: right;margin-left: 10px" src="../images/fig_res2.png" width="500">
 **R. Kiran**,Dimitar Pashov, Mark van Schilfgaarde, Mikhail I. Katsnelson, A. Taraphder, Swagata Acharya
 _Possible realization of hyperbolic plasmons in a few-layered rhenium disulfide_
- [[arxiv]](https://arxiv.org/abs/2301.06521)  
+Condens. Matter 2025, 10(3), 40 [[article]](https://www.mdpi.com/2410-3896/10/3/40) [[arxiv]](https://arxiv.org/abs/2301.06521)  
 
  The in-plane structural anisotropy in low-symmetric layered compound rhenium disulfide 
  ($\text{ReS}_2$) makes it a candidate to host and tune electromagnetic phenomena specific for 
